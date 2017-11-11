@@ -1,4 +1,4 @@
-# Euler 35
+# Euler 34
 # Sum of all numbers where the sum of factorials of single digits equals the number
 
 import math
