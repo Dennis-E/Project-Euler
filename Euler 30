@@ -8,7 +8,3 @@ for i in range(2,1000000):
 		total+=i
 
 print(total)
-
-"""
-print(sum(x for x in range(2, 1000000) if sum(int(y)**5 for y in str(x)) == x))
-"""
