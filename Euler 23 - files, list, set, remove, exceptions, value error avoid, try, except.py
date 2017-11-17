@@ -27,14 +27,3 @@ with open(r"C:\Users\user\workspace\Euler\numbers_not_sums_of_abundant_numbers.t
 	F.write(str(list))
 			
 print(sum(list))
-
-"""
-Python 2.4 with 2.5's "any":
-
-    abundants = set(i for i in range(1,28124) if d(i) > i)
-
-    def abundantsum(i):
-        return any(i-a in abundants for a in abundants)
-
-    print sum(i for i in range(1,28124) if not abundantsum(i))
-"""
