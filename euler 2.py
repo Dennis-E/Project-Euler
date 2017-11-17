@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Spyder Editor
- 
-This is a temporary script file.
 """
 i=0
 number1=1
@@ -21,7 +19,3 @@ while i==0:
     number2=number3
         
 print("The solution is "+str(counter))
-
-"""if i%3==0 or i%5==0:
-        counter=counter+i
-        print(str(i)+" "+str(counter))"""
