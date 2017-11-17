@@ -17,4 +17,3 @@ while True:
 	if len(primelist)==10001:
 		print (primelist[10000])
 		break
-	
