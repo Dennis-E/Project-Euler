@@ -1,5 +1,5 @@
-#Euler 31
-#All possible coin variations to make 2 GBP
+# Euler 31
+# All possible coin variations to make 2 GBP
 
 i=0
 
