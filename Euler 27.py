@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Nov  7 14:14:47 2017
+Euler 27
 
-@author: a1302594
+@author: Dennis Eggert
 """
 
 def is_prime(n):
