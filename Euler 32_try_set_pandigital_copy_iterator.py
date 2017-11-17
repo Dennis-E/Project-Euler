@@ -70,33 +70,3 @@ for multiplicant in range(1,10):
                             print(str(multiplicant)+str(multiplicant2)+"*"+str(multiplier1)+str(multiplier2)+str(multiplier3)+"="+str(product))
                 
 print(sum(result))
-
-"""
-print(
-    sum(z for z in set(
-        (x*y) for x in range(2, 49) for y in range(123, 10000//x + 1) 
-        if ''.join(sorted(str(x*y) + str(x) + str(y))) == '123456789')))
-"""
-
-"""
-if "".join(sorted(str(a)+str(b)+str(c))) == "123456789":
-"""
-
-"""
-def is_pandigital(a, b):
-    #  the old formatting is actually faster
-    return len(set("%d%d%d" % (a, b, a*b))) > 8
-
-p = set()
-for a in range(2, 10):
-    for bcde in range(1234, 9876):
-       if is_pandigital(a, bcde):
-            p.add(a * bcde)
-
-for ab in range(12, 98):
-    for cde in range(123, 987):
-        if is_pandigital(ab, cde):
-            p.add(ab * cde)
-
-print(sum(p))
-"""
