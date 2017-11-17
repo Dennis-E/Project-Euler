@@ -1,5 +1,5 @@
-#Euler20
-#Calculating the sum of digits of 100!
+# Euler20
+# Calculating the sum of digits of 100!
 
 number=1
 Summe=0
