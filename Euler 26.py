@@ -1,5 +1,5 @@
-#Euler 26
-#Biggest recurring cycle
+# Euler 26
+# Biggest recurring cycle
 
 maximum=0
 	
@@ -24,25 +24,3 @@ for i in range(2,1000):
 		maximum=length
 
 print(solution)
-
-"""
-cycle=[]
-max_cycle=0
-length=0
-found=False
-
-for i in range(1,10):
-	number=10**10/i
-	text=str(number)
-	print(text)
-	for k in range(len(text)):
-		if text[-1:int(-(1+k))]==text[int(-(1+k)-1):int(-(1+2*k)-1)] and found==False:
-			found=True
-			length=k
-			print(k)
-		found=False
-	if length>max_cycle:max_cycle=length
-	number=0
-
-print(max_cycle)
-"""
