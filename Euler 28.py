@@ -12,7 +12,6 @@ while size<=999:
 		i+=1
 		addition+=size
 		result+=addition
-		print(addition)
 		if i==4:
 			i=0
 			break
