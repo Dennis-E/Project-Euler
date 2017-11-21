@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Euler #4
+Dennis Eggert
 """
 
 a=9
