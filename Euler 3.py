@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Euler #3
+Dennis Eggert
 """
 i=0
 factors=[]
