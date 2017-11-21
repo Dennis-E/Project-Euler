@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Euler #2
+Dennis Eggert
 """
 i=0
 number1=1
