@@ -17,6 +17,7 @@ Functions that can be found:
 - is_pandigital(n)            returns True if number contains all numbers from 1-9
 - is_palindrome(n)            returns True if number is a palindrome, i.e. is the same number if written from the beginning or from end
 - reverse_number(n)           returns an integer number written backwards
-- sum_of_digits(n)            returns the sum of the digits of given number
+- sum_of_digits(n)            returns the sum of the digits of given number
+- check_permute_pairs_are_primes(list)    returns whether or not all possible concatenated "pairs" in a given list combine to primes
 
 - Couple of poker-related functions: pair(hand), flush(hand), royal_flush(hand), sorted_hand_values(hand), straight(hand), full_house(hand), two_pairs(hand), three_of_a_kind(hand), four_of_a_kind(hand)
